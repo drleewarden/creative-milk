@@ -1,0 +1,19 @@
+{
+  "info": {
+    "name": "carousel"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": true
+    }
+  },
+  "connection": "default",
+  "collectionName": "carousels"
+}

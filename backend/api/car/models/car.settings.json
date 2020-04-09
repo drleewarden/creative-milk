@@ -1,0 +1,17 @@
+{
+  "info": {
+    "name": "car"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "connection": "default",
+  "collectionName": "cars"
+}
